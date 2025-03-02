@@ -1,0 +1,88 @@
+/* Reset all margins, paddings, and ensure full height */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Ensure no default margin on body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fix wrapper div to remove spacing */
+.wrapper {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Ensure .separation starts at the top with no spacing */
+.separation {
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(19, 25, 33);
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    margin: 0 !important;
+}
+
+/* Container for book cards */
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+    padding: 0 50px;
+    flex-wrap: wrap;
+    background-image: url("BG.png");
+}
+
+/* Style for all cards */
+.card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 150px;
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image styling */
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img, .card7 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+/* Title styling */
+.card1 .title, .card2 .title, .card3 .title, .card4 .title,
+.card5 .title, .card6 .title, .card7 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Subtitle styling */
+.card1 .subtitle, .card2 .subtitle, .card3 .subtitle, .card4 .subtitle,
+.card5 .subtitle, .card6 .subtitle, .card7 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Debugging tool: Red border around elements to identify unwanted spacing */
+* {
+    outline: 1px solid red;
+}

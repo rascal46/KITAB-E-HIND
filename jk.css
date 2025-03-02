@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+
+    background-image:url("BG.png") ;
+    background-repeat:round;
+}
+
+.separation{
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(19, 25, 33);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+    padding: 0 50px;
+    flex-wrap: wrap;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7{
+    width: 150px;
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.card1 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card1 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.card2 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card2 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+
+.card3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 8px;
+}
+
+.card3 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card3 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+.card4 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 8px;
+}
+
+.card4 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card4 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+.card5 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 8px;
+}
+
+.card5 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card5 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+
+.card6 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.card6 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card6 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+
+.card7 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.card7 .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card7 .subtitle {
+    font-size: 12px;
+    color: #555;
+}
+
+button{
+    margin-top: 10px; /* Adjust the value as needed */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.nava{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
